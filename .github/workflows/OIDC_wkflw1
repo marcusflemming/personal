@@ -19,8 +19,8 @@ jobs:
             '{
             "clientId":"${{ secrets.CLIENT_ID }}",
             "clientSecret":"${{ secrets.CLIENT_SECRET }}",
-            "subscriptionId":"${{ secrets.SUBSCRIPTION_ID }}",
-            "tenantId":"${{ secrets.TENANT_ID }}"
+            "subscriptionId":"${{ secrets.AZURE_SUBSCRIPTION_ID }}",
+            "tenantId":"${{ secrets.AZURE_TENANT_ID }}"
             }'
             enable-AzPSSession: true
 
